@@ -13,8 +13,8 @@ const StateTwo = () => {
         <div>
             <h2>Count : {count}</h2>
             <button onClick={() => setCount(initCount)}>Reset</button>
-            <button onClick={() => setCount(count + 1)}>Increase</button>
-            <button onClick={() => setCount(count - 1)}> Decrease</button>
+            <button onClick={() => setCount(prevCount => prevCount + 1)}>Increase</button>
+            <button onClick={() => setCount(prevCount => prevCount - 1)}> Decrease</button>
             <button onClick={IncreaseFive}>Increament 5</button>
         </div>
     );
