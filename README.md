@@ -39,3 +39,24 @@ const addNewNumber = () => {
   ]);
 };
 ```
+----
+### Topic
+>useEffect
+
+#### Summary of useEffect
+
+- useEffect runs after every render of component
+- useEffect placed inside the component
+```js
+const ComponentName = () => {
+    const [count, setCount] = useState(0);
+    useEffect(() => {
+        document.title = `clicked ${count} times`
+    })
+    return (
+        <div>
+            <button onClick={() => setCount(count + 1)}>Click</button>
+        </div>
+    );
+};
+```
