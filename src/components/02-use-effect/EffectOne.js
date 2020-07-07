@@ -7,6 +7,7 @@ const EffectOne = () => {
     })
     return (
         <div>
+            {/*  */}
             <button onClick={() => setCount(count + 1)}>Click</button>
         </div>
     );
