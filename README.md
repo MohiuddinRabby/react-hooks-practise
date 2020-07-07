@@ -12,4 +12,17 @@
 
 >useState
 
->useEffect
+##### Summary of useState
+* useState hook let add state to functional components
+* the state doesnt have to be an object like class components. It can be array, number, boolean etc
+*  useState returns an array with 2 elements :
+   -  the first value is the current value of the state
+   -  and the second value is the state setter function
+* we can pass a function to the setter function
+* when using objects or arrays, always need to spread [...spread] state variable and then call the setter function.
+  
+
+
+
+
+
