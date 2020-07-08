@@ -99,3 +99,13 @@ const DataFetching2 = () => {
   );
 };
 ```
+----
+
+### Topic 
+
+> useContext
+
+#### Summary of useContext
+
+- Provides a way to pass data throug the component tree
+- no need to pass props down manually at every level
