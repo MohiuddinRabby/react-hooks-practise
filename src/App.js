@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div>
       <h1>Hooks-practise</h1>
-      <NameContext.Provider value={'mohiuddin'}>
+      {/* <NameContext.Provider value={'mohiuddin'}> */}
       {/* <StateOne /> */}
       {/* <StateTwo/> */}
       {/* <StateThree /> */}
@@ -29,8 +29,8 @@ const App = () => {
       {/* <EffectThree/> */}
       {/* <DataFetching /> */}
       {/* <DataFetching2/> */}
-      <ContextOne/>
-      </NameContext.Provider>
+      {/* <ContextOne/>
+      </NameContext.Provider> */}
     </div>
   );
 }

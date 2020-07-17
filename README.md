@@ -109,3 +109,39 @@ const DataFetching2 = () => {
 
 - Provides a way to pass data throug the component tree
 - no need to pass props down manually at every level
+
+```js
+export const NameContext = createContext();
+const App = () => {
+  return (
+    <div>
+      <h1>Hooks-practise</h1>
+      <NameContext.Provider value={'mohiuddin'}>
+      <ContextOne/>
+      </NameContext.Provider>
+    </div>
+  );
+}
+```
+```js
+const ContextOne = () => {
+    const userName = useContext(NameContext)
+    return (
+        <div>
+            <p>Name: {userName}</p>
+        </div>
+    );
+};
+```
+----
+
+### Topic 
+
+> useReducer
+
+#### Summary of useReducer
+
+- useReducer is use to manage state in react
+- related to reducer function
+- useReducer(reducer,initialState)
+- reducer(currentState,action)
