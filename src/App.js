@@ -12,8 +12,6 @@ import DataFetching2 from './components/02-use-effect/DataFetching2';
 import ContextOne from './components/03-use-context/ContextOne';
 
 export const NameContext = createContext();
-
-
 const App = () => {
   return (
     <div>
