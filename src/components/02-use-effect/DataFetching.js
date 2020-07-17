@@ -12,7 +12,7 @@ const DataFetching = () => {
             .catch(err => {
                 console.log(err)
             })
-    },[])
+    }, [])
     return (
         <div>
             {
